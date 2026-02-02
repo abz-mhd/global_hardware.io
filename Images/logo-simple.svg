@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple Clean Logo Design -->
+  
+  <!-- Circle border -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main crossed tools design -->
+  
+  <!-- Screwdriver (vertical) -->
+  <g id="screwdriver-simple">
+    <!-- Handle -->
+    <rect x="85" y="50" width="30" height="20" rx="10" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <!-- Shaft -->
+    <rect x="97" y="70" width="6" height="50" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <!-- Tip -->
+    <rect x="92" y="120" width="16" height="6" rx="1" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <line x1="92" y1="123" x2="108" y2="123" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  
+  <!-- Wrench (horizontal) -->
+  <g id="wrench-simple">
+    <!-- Left jaw -->
+    <path d="M 50 95 Q 40 95 35 100 Q 30 105 30 115 Q 30 120 35 125 L 40 130 Q 45 135 50 135 Q 55 135 60 130 L 65 125 Q 70 120 70 115 Q 70 105 65 100 Q 60 95 50 95" 
+          fill="none" stroke="#ffffff" stroke-width="3"/>
+    <!-- Handle -->
+    <rect x="70" y="96" width="50" height="8" rx="4" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <!-- Right jaw -->
+    <path d="M 120 95 Q 130 95 135 100 Q 140 105 140 115 Q 140 120 135 125 L 130 130 Q 125 135 120 135 Q 115 135 110 130 L 105 125 Q 100 120 100 115 Q 100 105 105 100 Q 110 95 120 95" 
+          fill="none" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  
+  <!-- Center accent circle -->
+  <circle cx="100" cy="100" r="8" fill="#f97316"/>
+  
+  <!-- Shadow effects -->
+  <defs>
+    <filter id="shadow-simple">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  
+  <!-- Apply shadows -->
+  <use href="#screwdriver-simple" filter="url(#shadow-simple)"/>
+  <use href="#wrench-simple" filter="url(#shadow-simple)"/>
+</svg>

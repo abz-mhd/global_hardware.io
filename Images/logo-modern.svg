@@ -1,0 +1,51 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern Minimalist Hardware Logo -->
+  
+  <!-- Hexagon frame -->
+  <g id="hexagon">
+    <path d="M 100 30 L 165 60 L 165 140 L 100 170 L 35 140 L 35 60 Z" 
+          fill="none" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  
+  <!-- Tool icons inside hexagon -->
+  
+  <!-- Wrench (simplified) -->
+  <g id="wrench-modern">
+    <!-- Top jaw -->
+    <ellipse cx="100" cy="70" rx="12" ry="8" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+    <!-- Handle -->
+    <rect x="100" y="78" width="25" height="4" rx="2" fill="#ffffff"/>
+    <!-- Bottom jaw -->
+    <ellipse cx="130" cy="90" rx="8" ry="6" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Screwdriver (simplified) -->
+  <g id="screwdriver-modern">
+    <!-- Handle -->
+    <rect x="70" y="100" width="12" height="30" rx="6" fill="#f97316"/>
+    <!-- Shaft -->
+    <rect x="73" y="130" width="6" height="25" fill="#ffffff"/>
+    <!-- Tip -->
+    <rect x="70" y="155" width="12" height="4" rx="1" fill="#ffffff"/>
+  </g>
+  
+  <!-- Bolt/Nut icon -->
+  <g id="bolt">
+    <polygon points="100,110 110,120 100,130 90,120" 
+             fill="none" stroke="#ffffff" stroke-width="2.5"/>
+    <circle cx="100" cy="120" r="4" fill="#f97316"/>
+  </g>
+  
+  <!-- Shadow effects -->
+  <defs>
+    <filter id="shadow-modern">
+      <feDropShadow dx="3" dy="3" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- Apply shadows -->
+  <use href="#hexagon" filter="url(#shadow-modern)"/>
+  <use href="#wrench-modern" filter="url(#shadow-modern)"/>
+  <use href="#screwdriver-modern" filter="url(#shadow-modern)"/>
+  <use href="#bolt" filter="url(#shadow-modern)"/>
+</svg>

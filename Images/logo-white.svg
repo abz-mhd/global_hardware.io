@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Screwdriver (diagonal from top-left to bottom-right) -->
+  <g id="screwdriver">
+    <!-- Screwdriver handle -->
+    <rect x="45" y="45" width="20" height="50" rx="10" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <rect x="47" y="47" width="16" height="46" rx="8" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+    
+    <!-- Screwdriver shaft -->
+    <rect x="52" y="95" width="6" height="60" fill="none" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- Screwdriver tip (flat head) -->
+    <rect x="48" y="155" width="14" height="8" rx="1" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <line x1="48" y1="159" x2="62" y2="159" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  
+  <!-- Wrench (diagonal from top-right to bottom-left) -->
+  <g id="wrench">
+    <!-- Top jaw of wrench -->
+    <path d="M 155 45 Q 165 45 170 50 Q 175 55 175 65 Q 175 70 170 75 L 165 80 Q 160 85 155 85 Q 150 85 145 80 L 140 75 Q 135 70 135 65 Q 135 55 140 50 Q 145 45 155 45" 
+          fill="none" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- Wrench handle -->
+    <rect x="100" y="100" width="50" height="8" rx="4" fill="none" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- Bottom jaw of wrench -->
+    <path d="M 45 125 Q 35 125 30 130 Q 25 135 25 145 Q 25 150 30 155 L 35 160 Q 40 165 45 165 Q 50 165 55 160 L 60 155 Q 65 150 65 145 Q 65 135 60 130 Q 55 125 45 125" 
+          fill="none" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  
+  <!-- Shadow effects for depth (dark shadow) -->
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="3" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- Apply shadow to both tools -->
+  <use href="#screwdriver" filter="url(#shadow)"/>
+  <use href="#wrench" filter="url(#shadow)"/>
+</svg>
